@@ -18,11 +18,11 @@ int main() {
     switch(n) {
 
         case '+':
-        printf("%d", x + y);
+        printf("%d + %d = %d",x,y, x + y);
         break;
 
         case '-':
-        printf("%d", x - y);
+        printf("%d - %d = %d",x,y, x - y);
         break;
 
         case '/':
@@ -30,11 +30,11 @@ int main() {
             printf("Cannot divide by 0");
         }
         else {
-        printf("%d", x / y);
+        printf("%d / %d = %d",x,y, x / y);
         break;}
 
         case '*':
-        printf("%d", x * y);
+        printf("%d * %d = %d", x * y);
         break;
 
         default:
