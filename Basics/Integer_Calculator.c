@@ -14,6 +14,7 @@ int main() {
     printf("Enter second number : ");
     scanf("%d", &y);
 
+
     switch(n) {
 
         case '+':
@@ -25,8 +26,12 @@ int main() {
         break;
 
         case '/':
+        if(y == 0) {
+            printf("Cannot divide by 0");
+        }
+        else {
         printf("%d", x / y);
-        break;
+        break;}
 
         case '*':
         printf("%d", x * y);
