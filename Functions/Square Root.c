@@ -4,10 +4,10 @@
 int main() {
 
     float n;
-    printf("Enter number : ");
+    printf("Enter Number : ");
     scanf("%f", &n);
-    
-   printf("%f",pow(n,2.0));
-    
+
+    printf("%f", pow(n,0.5));
+
     return 0;
 }
