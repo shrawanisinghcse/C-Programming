@@ -7,7 +7,7 @@ int main() {
     
     storeTable(table, 0, 10, 2);
     printf("\n");
-    storeTable(table, 0, 10, 3);
+    storeTable(table, 1, 10, 3);
 
     return 0;
 }
