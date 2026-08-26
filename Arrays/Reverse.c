@@ -6,7 +6,7 @@ int main() {
 
     
     for(int i = 8;i >= 0; i--) {
-        printf("%d \n", a[i]);
+        printf("%d \t", a[i]);
     }
     return 0;
 }
