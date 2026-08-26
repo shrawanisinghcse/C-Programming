@@ -1,10 +1,26 @@
+//Reversing array using classic function way
+
 #include<stdio.h>
 
-int rev
+int Rev(int arr[], int n);
 
 int main() {
+    int arr[] = {1, 2, 3, 4, 5};
 
-    int arr[] = {3,4,54,65,32,32};
+    Rev(arr, 5);
+    
 
-    for()
+    return 0;
+}
+
+int Rev(int arr[], int n) {
+    for(int i = 0; i < n/2; i++) {
+        int FirstVal = arr[i];
+        int SecondVal = arr[n-i-1];
+        arr[i] = SecondVal;
+        arr[n-i-1] = FirstVal;
+    }
+    for(int i = 0; i < n; i++) {
+        printf("%d \t", arr[i]);
+    }
 }
