@@ -4,7 +4,9 @@ void vowel(char arr[]);
 
 int main() {
 
-    char Vowel[] = "Well well, I am writing anything right now just to program so yeah, I guess that is enough now.";
+    char Vowel[100];
+    printf("Write your sentence : ");
+    fgets(Vowel, 100, stdin);
 
     vowel(Vowel);
 
